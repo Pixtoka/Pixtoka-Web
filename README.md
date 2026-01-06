@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Pixtoka/.github/main/profile/Pixtoka_Banner_Rounded.png" width="95%" alt="Pixtoka Banner">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pixtoka Web 🤖🌐
 
-Currently, two official plugins are available:
+This repository contains the **official website for Pixtoka**, an advanced Discord bot platform developed by **Hexoraw**.  
+The website acts as the main public-facing hub for Pixtoka, showcasing its features, commands, vision, and community access points.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pixtoka is designed to help Discord communities grow and thrive through powerful moderation tools, automation, and extensibility.  
+This site provides a clear entry point for users, server owners, and contributors.
 
-## React Compiler
+## 🧱 What’s Inside
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project includes:
 
-## Expanding the ESLint configuration
+- Public landing page for Pixtoka
+- Feature and command highlights
+- Community and support sections
+- Call-to-action for bot invitation
+- Modern UI built with **React + Vite**
+- Styled with **Tailwind CSS**
+- Optimized for performance and accessibility
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚧 Project Status
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+⚠️ **Pixtoka is currently under active development.**  
+Features, visuals, and content may change frequently as the platform evolves.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Development progress and build status are tracked directly through GitHub.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Live Site
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The website is available at:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+👉 **Coming soon**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📦 Tech Stack
+
+- **React 19**
+- **Vite 6**
+- **TypeScript**
+- **Tailwind CSS**
+- **GitHub Pages**
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you’d like to:
+- Improve UI/UX
+- Fix bugs or layout issues
+- Suggest new sections or content
+- Help prepare the site for public launch
+
+Please open a **GitHub Issue** or submit a **Pull Request**.
+
+>Before contributing, note:
+>- This repository powers the **official Pixtoka website**.
+>- All contributions should align with the Pixtoka brand and vision.
+>- Breaking changes should be discussed beforehand.
+
+## 💬 Community & Support
+
+Stay connected with the Pixtoka community:
+
+👉 **Discord (coming soon)**  
+👉 **GitHub Issues** for bugs and feature requests
+
+<div align="center">
+  🚀 Powered by <a href="https://hexoraw.com"><b>Hexoraw</b></a> — for the Discord communities
+</div>
